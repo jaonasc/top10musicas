@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOP 10 MÚSICAS DE 2024</title>
+  <style>
+    body {
+      background-color: #bdc3c7;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 50px;
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: arcoiris 5s linear infinite;
+      background-size: 400%;
+      margin: 0;
+    }
+
+    @keyframes arcoiris {
+      0% { background-position: 0% }
+      100% { background-position: 100% }
+    }
+
+    .star {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        opacity: 0;
+        pointer-events: none;
+        animation: starAnimation 1s forwards;
+    }
+
+    @keyframes starAnimation {
+        0% {
+            transform: scale(1) translate(-50%, -50%);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(0) translate(-50%, -50%);
+            opacity: 0;
+        }
+    }
+
+    .banner {
+      width: 150px;
+      height: 220px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .banner:hover {
+      transform: scale(1.1);
+    }
+
+    #title {
+      background-color: antiquewhite;
+      color: white;
+      padding: 1px;
+    }
+
+    figure {
+      text-align: center;
+      margin: 0;
+    }
+
+    figcaption {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 30px;
+    }
+
+    #lista-musicas {
+      font-size: 1rem;
+      border: 1px solid #2c3e50;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #839192;
+      width: 250px;
+      flex-shrink: 0;
+    }
+
+    #musicas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+  <br/><br/>
+  <div id="title">
+    <center><h1>TOP 10 MELHORES MÚSICAS DE 2024</h1></center>
+    <center>
+      <img src="https://media0.giphy.com/media/cOfwtFobGCLJBU3DNn/giphy.gif?cid=6c09b952j0soszcgpqnl06b5dqm62nwhgm8tcm74kelog6g9&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" width="200">
+    </center>
+  </div>
+
+  <div class="container">
+    <div id="lista-musicas">
+      <ol>
+        <li>"Birds of a Feather" – Billie Eilish</li>
+        <li>"Espresso" – Sabrina Carpenter</li>
+        <li>"Beautiful Things" – Benson Boone</li>
+        <li>"Greedy" – Tate McRae</li>
+        <li>"La Diabla" – Xavi</li>
+        <li>"Cruel Summer" – Taylor Swift</li>
+        <li>"Lose Control" – Teddy Swims</li>
+        <li>"Gata Only" – FloyyMenor & Cris Mj</li>
+        <li>"Too Sweet" – Hozier</li>
+        <li>"Die With a Smile" – Bruno Mars & Lady Gaga</li>
+      </ol>
+    </div>
+
+    <div id="musicas">
+      <figure>
+        <a href="https://www.youtube.com/watch?v=V9PVRfjEBTI" target="_blank">
+          <img src="https://i1.sndcdn.com/artworks-T99f0BmoDfy0jidN-wrXBRg-t500x500.jpg" class="banner">
+        </a>
+        <figcaption>Billie Eilish - Birds of a Feather</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=eVli-tstM5E" target="_blank">
+          <img src="https://i.scdn.co/image/ab67616d0000b273659cd4673230913b3918e0d5" class="banner">
+        </a>
+        <figcaption>Sabrina Carpenter - Espresso</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=Oa_RSwwpPaA" target="_blank">
+          <img src="https://i.scdn.co/image/ab67616d0000b273bef221ea02a821e7feeda9cf" class="banner">
+        </a>
+        <figcaption>Benson Boone – Beautiful Things</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=To4SWGZkEPk" target="_blank">
+          <img src="https://i1.sndcdn.com/artworks-qohDzwuVVuxuuTTF-ks4ztw-t1080x1080.jpg" class="banner">
+        </a>
+        <figcaption>Tate McRae – Greedy</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=HfzbN5ky5Co" target="_blank">
+          <img src="https://i1.sndcdn.com/artworks-b7DNQiS8VMD2vbqy-2zNUKw-t500x500.jpg" class="banner">
+        </a>
+        <figcaption>Xavi – La Diabla</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=ic8j13piAhQ" target="_blank">
+          <img src="https://i.scdn.co/image/ab67616d0000b273b40f953d9ebdc956544e28a5" class="banner">
+        </a>
+        <figcaption>Taylor Swift – Cruel Summer</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=GZ3zL7kT6_c&ab_channel=TeddySwims" target="_blank">
+          <img src="https://i.scdn.co/image/ab67616d0000b2731d856e66d33e22746c21a09c" alt="Lose Control – Teddy Swims" class="banner">
+        </a>
+        <figcaption>Lose Control – Teddy Swims</figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://www.youtube.com/watch?v=-r687V8yqKY&ab_channel=FloyyMenorVEVO" target="_blank">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRViznqUpg896SLtwlV-7t6bJX3JUYNEue8DQ&s" alt="Gata Only – FloyyMenor & Cris Mj" class="banner">
+        </a>
+        <figcaption>Gata Only – FloyyMenor & Cris Mj</figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://www.youtube.com/watch?v=kPa7bsKwL-c&ab_channel=LadyGagaVEVO" target="_blank">
+          <img src="https://i.scdn.co/image/ab67616d0000b27382ea2e9e1858aa012c57cd45" alt="Die With a Smile – Bruno Mars & Lady Gaga" class="banner">
+        </a>
+        <figcaption>Die With a Smile – Bruno Mars & Lady Gaga</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('mousemove', function(e) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+      star.style.left = `${e.pageX}px`;
+      star.style.top = `${e.pageY}px`;
+      document.body.appendChild(star);
+      setTimeout(() => {
+        star.remove();
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
+
