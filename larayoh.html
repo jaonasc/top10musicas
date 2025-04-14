@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOP 10 MELHORES LOUVORES</title>
+  <style>
+    body {
+      background-color: #92b6cf92;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 50px;
+      background: linear-gradient(90deg, rgb(37, 5, 141), rgb(33, 171, 245), rgb(238, 0, 255), rgb(93, 9, 68), rgb(141, 6, 62), indigo, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: arcoiris 5s linear infinite;
+      background-size: 400%;
+      margin: 0;
+    }
+
+    @keyframes arcoiris {
+      0% { background-position: 0% }
+      100% { background-position: 100% }
+    }
+
+    .star {
+        position: absolute;
+        font-size: 20px;
+        pointer-events: none;
+        opacity: 0;
+        animation: starAnimation 3s forwards;
+    }
+
+    @keyframes starAnimation {
+        0% {
+            transform: scale(1) translate(-50%, -50%);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(0) translate(-50%, -50%);
+            opacity: 0;
+        }
+    }
+
+    .banner {
+      width: 150px;
+      height: 220px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .banner:hover {
+      transform: scale(1.1);
+    }
+
+    #title {
+      background-color: rgb(253, 253, 253);
+      color: white;
+      padding: 1px;
+    }
+
+    figure {
+      text-align: center;
+      margin: 0;
+    }
+
+    figcaption {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 30px;
+    }
+
+    #lista-musicas {
+      font-size: 1rem;
+      border: 1px solid #2c3e50;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f7f7f7;
+      width: 250px;
+      flex-shrink: 0;
+    }
+
+    #musicas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    footer{
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      height: 250px;
+    }
+  </style>
+</head>
+<body>
+  <br/><br/>
+  <div id="title">
+    <center><h1>TOP 10 MELHORES LOUVORES</h1></center>
+    <center>
+      <img src="https://media.tenor.com/Yg9cr-N09a4AAAAM/music.gif" width="200">
+    </center>
+  </div>
+
+  <div class="container">
+    <div id="lista-musicas">
+      <ol>
+        <li>"O maior vilão sou eu" - Sarah Beatriz</li>
+        <li>"Aos Pés Da Cruz" - Eli Soares</li>
+        <li>"Vem Sentir o Seu Poder" - Rose Nascimento </li>
+        <li>"Pai Eu Nao Confio em Mim" - Thalles Roberto</li>
+        <li>"Deus, Tu És Santo" - Danielle Cristina</li>
+        <li>"Grande É O Senhor" - Eli Soares</li>
+        <li>"Sou Eu" - Fabiana Anastácio</li>
+        <li>"Jesus Me Achou" – Thalles Roberto</li>
+        <li>"Se Eu Cair" – Eli Soares</li>
+        <li>"Me Ajude A Melhorar" – Eli Soares</li>
+      </ol>
+    </div>
+
+    <div id="musicas">
+      <figure>
+        <a href="https://www.youtube.com/watch?v=1lMFElbRIos&ab_channel=Gra%C3%A7aMusic" target="_blank">
+          <img src="https://cdn-images.dzcdn.net/images/cover/9e63f26733bf7cdb3070f171bddfb77b/0x1900-000000-80-0-0.jpg" class="banner">
+        </a>
+        <figcaption>Sarah Beatriz - O maior vilão sou eu</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=ixPpw8OiKJo&ab_channel=EliSoaresVEVO" target="_blank">
+          <img src="https://i.scdn.co/image/ab67616d0000b273f6dd6a2bc668b07b93f4c64f" class="banner">
+        </a>
+        <figcaption>Eli Soares - Aos Pés Da Cruz</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=Vzc1ID6W5mg&ab_channel=RoseNascimento-Topic" target="_blank">
+          <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/f/6/b/8/217001710421218.jpg" class="banner">
+        </a>
+        <figcaption>Rose Nascimento - Vem Sentir o Seu Poder</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=nHG7reH8tkI&ab_channel=ThallesRoberto-Topic" target="_blank">
+          <img src="https://i1.sndcdn.com/artworks-000046066001-8wljf8-t500x500.jpg" class="banner">
+        </a>
+        <figcaption>Thalles Roberto - Pai Eu Nao Confio em Mim</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=IxTMn-OqGYQ&ab_channel=MovPentecostalVEVO" target="_blank">
+          <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/b/7/e/0/263871689601288.jpg" class="banner">
+        </a>
+        <figcaption>Danielle Cristina - Deus, Tu És Santo</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=6OnuqNFeGUY&ab_channel=EliSoaresVEVO" target="_blank">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXORAl47w13T36jvR6D6yd3_Ue_rGYhALvBA&s" class="banner">
+        </a>
+        <figcaption>Eli Soares - Grande É O Senhor</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.youtube.com/watch?v=-dDOm4XGGfM&ab_channel=TodahMusic" target="_blank">
+          <img src="https://cdn-images.dzcdn.net/images/cover/4090a403efcd1f364b2ce9151e716d28/500x500.jpg" class="banner">
+        </a>
+        <figcaption>Fabiana Anastácio - Sou Eu</figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://www.youtube.com/watch?v=PahWhtQFv8Q&ab_channel=ThallesRoberto-Topic" target="_blank">
+          <img src="https://i.scdn.co/image/ab67616d00001e02655c25a06bbee99f56630075" class="banner">
+        </a>
+        <figcaption>Thalles Roberto - Jesus Me Achou</figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://www.youtube.com/results?search_query=se+eu+cair" target="_blank">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXao6gvnqG904GcYQekWrWN-toS-NcE90laA&s" class="banner">
+        </a>
+        <figcaption>Eli Soares - Se Eu Cair</figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://www.youtube.com/watch?v=89NeyF8qTIg&ab_channel=EliSoaresVEVO" target="_blank">
+          <img src="https://i.scdn.co/image/ab67616d0000b27346c5a0e12aa63af3fbd9a0e7" class="banner">
+        </a>
+        <figcaption>Eli Soares - Me Ajude A Melhorar</figcaption>
+      </figure>
+    </div>
+  </div>
+  <footer>
+    <p>Site feito por Lara Gabriely Silva Souza e Yohane Freire Maia da Silva 3 INFO C</p>
+
+  </footer>
+  <script>
+    document.addEventListener('mousemove', function(e) {
+    const star = document.createElement('div');
+    star.classList.add('star');
+    star.textContent = '🙏';
+    star.style.left = `${e.pageX}px`;
+    star.style.top = `${e.pageY}px`;
+    document.body.appendChild(star);
+    setTimeout(() => {
+      star.remove();
+    }, 1000);
+  });
+  </script>
+</body>
+</html>
+
